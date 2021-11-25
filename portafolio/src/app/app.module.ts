@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavbarComponent } from './componentes/navbar/navbar.component';
 import { MysqlDbComponent } from './componentes/mysql-db/mysql-db.component';
+import { FooterComponent } from './componentes/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    MysqlDbComponent
+    MysqlDbComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
